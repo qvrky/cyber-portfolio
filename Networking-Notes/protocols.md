@@ -5,14 +5,14 @@
 * How it works (The Chain):
   1. The computer checks its local cache.
   2. If missing, it asks the recursive resolver (like 8.8.8.8 or 1.1.1.1).
-  3. The resolver acts as the middleman, asking the root server. the root server doesnt actually know the IP's of anything, it just knows who does.
+  3. The resolver acts as the middleman, asking the root server. The root server doesn't actually know the IPs of anything; it just knows who does.
   4. The Root points to the TLD server (Top Level Domain like '.com', '.co.uk').
   5. The TLD points to the authoritative name server for that specific site.
   6. The IP address is retrieved, cached, and sent back to the browser.
 
 # IP Addressing & Subnetting
-* Internet Protocol (IP): A unique mailing address for your device so packets know where to land. It is like a home address for your device
-* IPv4 Structure: An IP address, e.g. 192.132.145.3, consists of 32 bits split into 4 octets. These octets are seperated by '.'.
+* Internet Protocol (IP): A unique mailing address for your device so packets know where to land.
+* IPv4 Structure: An IP address, e.g. 192.132.145.3, consists of 32 bits split into 4 octets. These octets are separated by '.'.
 * The Subnet Mask: A subnet mask, e.g. 255.255.255.0, tells the computer which part of the IP belongs to the network (the street name) and which part belongs to the host device (the house number). 
 * Example: A mask of '255.255.255.0' means the first three octets belong to the network, and the last octet is the individual machine.
 
@@ -22,13 +22,15 @@
 
 # Transmission Protocols: TCP vs. UDP
 ## TCP (Transmission Control Protocol)
-* TCP is the reliable mailman. Slower but guaranteed delivery.
-* The 3-Way Handshake: TCP is so reliable because it performs a 3 way handshake before any data packets get sent or recieved. The handshake is shown below:
+* TCP is the reliable mailman. Slower but much more reliable.
+* The 3-Way Handshake: Before any data is sent, TCP establishes a connection:
   1. SYN: Client asks to synchronise.
   2. SYN-ACK: Server acknowledges and requests to sync back.
   3. ACK: Client acknowledges. Connection established.
+* Why it's reliable: data is split into numbered pieces (sequence numbers). The receiver acknowledges what arrives, asks again for any missing piece, and puts everything back in order, like a puzzle.
+* Note: TCP retransmits lost data, but if the connection breaks entirely, nothing is guaranteed.
 
 ## UDP (User Datagram Protocol)
-* UDP is the less reliable, but fast mailman. Instead of performing a secure handshake, it just shouts the data out not worrying if anything is listening for it.
+* UDP is the less reliable, but fast mailman. Instead of performing a handshake, it just shouts the data out not worrying if anything is listening for it.
 * It is commonly used for live streaming and gaming where speed matters more than losing a few dropped frames.
 
