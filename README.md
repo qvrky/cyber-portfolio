@@ -37,5 +37,5 @@ I'm teaching myself IT with the goal of working in cybersecurity, as either an e
 
 ## A note on these notes
 
-Everything here is written to help me understand it myself, so it may contain mistakes. I correct it as I learn more. Practice is done only in legal environments built for it.
+Everything here is written to help me understand it myself, so it may contain mistakes. I correct it as I learn more. Practice is only done in legal environments built for it.
 

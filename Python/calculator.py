@@ -1,11 +1,11 @@
 no1 = int(input("First Digit: "))
-symbol = input("Operator: ")
+operator = input("Operator: ")
 no2 = int(input("Second Digit: "))
-if symbol == "*":
+if operator == "*":
     print(no1*no2)
-elif symbol == "+":
+elif operator == "+":
     print(no1+no2)
-elif symbol == "/":
+elif operator == "/":
     print(no1/no2)
-elif symbol == "-":
+elif operator == "-":
     print(no1-no2)

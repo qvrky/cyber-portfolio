@@ -34,3 +34,6 @@
 * UDP is the less reliable, but fast mailman. Instead of performing a handshake, it just shouts the data out not worrying if anything is listening for it.
 * It is commonly used for live streaming and gaming where speed matters more than losing a few dropped frames.
 
+# FTP (File Transfer Protocol)
+
+

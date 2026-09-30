@@ -1,14 +1,13 @@
 users = {
-    "hannah": "user",
-    "oliver": "user",
-    "camile": "admin",
     "john": "user",
-    "emanuel": "admin",
+    "joe": "user",
+    "jane": "admin",
+    "daniel": "user",
     "anna": "admin",
+    "gary": "admin",
     "michael": "user",
-    "albert": "user",
-    "gary": "user",
-    "simona": "admin"
+    "jason": "user"
+
 }
 name = input("Enter your username: ")
 if name in users:
