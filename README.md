@@ -10,7 +10,7 @@ I'm teaching myself IT with the goal of working in cybersecurity, as either an e
 | [Linux-Command-Line](Linux-Command-Line/) | Progress and notes from the OverTheWire Bandit wargame (Linux terminal skills) |
 | [Web-Security](Web-Security/) | Write-ups of PortSwigger Web Security Academy labs |
 | [Learning-Log](Learning-Log/) | Short dated notes on what I'm learning month to month |
-
+| [Python](Python/) | Python tasks and finished code |
 ## What I've done so far
 
 - Learned how DNS, IP addressing/subnetting, NAT and TCP/UDP work. I have written it up in my own words.
