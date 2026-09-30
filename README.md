@@ -16,7 +16,6 @@ I'm teaching myself IT with the goal of working in cybersecurity, as either an e
 
 - Learned how DNS, IP addressing/subnetting, NAT and TCP/UDP work. I have written it up in my own words.
 - Worked in the Linux terminal, and installed and switched between operating systems on several machines.
-- Ran nmap against a deliberately vulnerable VM on an isolated network and gained access through a weak SSH password, then worked out how to prevent it.
 - Started Python: a basic user-checker system and a calculator. 
 - Built and repaired PCs, diagnosing hardware faults by swapping parts.
 
